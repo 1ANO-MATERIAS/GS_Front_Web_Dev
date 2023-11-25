@@ -31,13 +31,13 @@ O site do projeto é composto pelas páginas e seções:
   - Sobre Nós
   - Contato
 
-A estruturação de todos os componentes utlizados no site se encontram na pasta _[components](./src/components)_. A estilização de todos os componentes foi feita através da biblitoeca _styled-components_, com exceção do componente [Test]("./src/components/Test/index.js"), cuja estilização foi feita utilizando [SASS](./src/components/Test/style.scss).
+A estruturação de todos os componentes utlizados no site se encontram na pasta _[components](./src/components)_. A estilização de todos os componentes foi feita através da biblitoeca _styled-components_, cuja estilização foi feita utilizando [SASS](./src/components/Test/style.scss).
 
 As imagens utilizadas ao longo de todo o site se encontram na [pasta "imgs"](./src/imgs)
 
 ___
 ## Como executar o projeto
-O site pode ser acessado por uma versão hospedada do site através [deste link](https://challenge-2023-d826e.web.app/Soluçao).
+O site pode ser acessado por uma versão hospedada do site através [deste link](https://saude-unica-edb90.firebaseapp.com).
 
 Ou alternativamente, para executar o projeto, é necessário copiar o repositório em uma máquina local (através de um _IDE_, por exemplo), e ter instalado o ambiente de desenvolvimento [Node](https://nodejs.org/en).
 
