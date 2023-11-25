@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Global Solution - 2SEM - Front-end Design & Web Development with JavaScript - SereniBOT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Nomes:**
+- Fabrício Saavedra 97631
 
-## Available Scripts
+**Turma:** 1ESPW
 
-In the project directory, you can run:
+**Ano:** 2023
+___
+<p align="center">
+<img src="./src/imgs/logo_color.png" align=center>
+</p>
 
-### `npm start`
+## Descrição do Projeto
+O foco do projeto é a utilização prática dos conhecimentos adquiridos nas aulas das disciplinas de Design Front-end e Desenvolvimento Web com JavaScript.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O conteúdo aqui praticado é a utilização da biblioteca React, bem como de seus módulos e componentes (como por exemplo _styled components_, _bootstrap_ e _router dom_), para a construção de elementos HTML/CSS/JavaScript de maneira mais rápida e fácil.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Foi utlizado a estilização de páginas via SASS para construção mais rápida de estilizações CSS dinâmicas.
 
-### `npm test`
+Neste repostiório, está disposto a construção final da página do projeto desenvolvido para a GS, o **SereniBOT**
+___
+## Desenvolvimento do Projeto
+O projeto foi desenvolvido utilizando como base a biblioteca React, para a estruturação do código, juntamente com outras bibliotecas para a estilização e funcionalidadeds dos componente.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O site do projeto é composto pelas páginas e seções:
+  - Home
+  - Problema
+  - Causas
+  - Solução
+  - Sobre Nós
+  - Contato
 
-### `npm run build`
+A estruturação de todos os componentes utlizados no site se encontram na pasta _[components](./src/components)_. A estilização de todos os componentes foi feita através da biblitoeca _styled-components_, com exceção do componente [Test]("./src/components/Test/index.js"), cuja estilização foi feita utilizando [SASS](./src/components/Test/style.scss).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+As imagens utilizadas ao longo de todo o site se encontram na [pasta "imgs"](./src/imgs)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+___
+## Como executar o projeto
+O site pode ser acessado por uma versão hospedada do site através [deste link](https://challenge-2023-d826e.web.app/Soluçao).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ou alternativamente, para executar o projeto, é necessário copiar o repositório em uma máquina local (através de um _IDE_, por exemplo), e ter instalado o ambiente de desenvolvimento [Node](https://nodejs.org/en).
 
-### `npm run eject`
+Uma vez que os arquivos estão presentes na máquina, é necessário utilizar o comando "npm install" através de um terminal de comando na pasta principal, para que a biblioteca styled-components também seja adicionada aos arquivos*
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+É necessário somente utilizar o comando "npm start" para que a página seja exibida.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+_____
