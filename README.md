@@ -26,12 +26,12 @@ O projeto foi desenvolvido utilizando como base a biblioteca React, para a estru
 O site do projeto é composto pelas páginas e seções:
   - Home
   - Problema
-  - Causas
+  - Funcionamento
   - Solução
   - Sobre Nós
   - Contato
 
-A estruturação de todos os componentes utlizados no site se encontram na pasta _[components](./src/components)_. A estilização de todos os componentes foi feita através da biblitoeca _styled-components_, cuja estilização foi feita utilizando [SASS](./src/components/Test/style.scss).
+A estruturação de todos os componentes utlizados no site se encontram na pasta _[components](./src/components)_. A estilização de todos os componentes foi feita através de SASS.
 
 As imagens utilizadas ao longo de todo o site se encontram na [pasta "imgs"](./src/imgs)
 
